@@ -1,0 +1,7 @@
+.DS_Store
+rsync.sh
+public/
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
