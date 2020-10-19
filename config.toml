@@ -1,0 +1,123 @@
+baseurl = "https://www.fwimd.com/2020"
+languageCode = "en"
+title = "FWIMD 2020"
+theme = "vex-hugo"
+
+[params]
+  description = ""
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = ""
+    description = ""
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "FWIMD 2020"
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HOME"
+    [[params.navbar.menu]]
+      link = "#plenary-speaker"
+      text = "Plenary Speaker"
+    [[params.navbar.menu]]
+      link = "#planned-activities"
+      text = "Activities"
+    [[params.navbar.menu]]
+      link = "#features-list"
+      text = "Features"
+    [[params.navbar.menu]]
+      link = "#gallery"
+      text = "Gallery"
+    [[params.navbar.menu]]
+      link = "#organizers"
+      text = "Organizers"
+
+  # Header
+  [params.header]
+    title = "Florida Women In Mathematics Day"
+    text = "FWIMD is a one-day conference for women in mathematics and a half-day immersion experience for girls interested in mathematics. The local FAU chapter of the Association for Women in Mathematics (AWM) will help facilitate this day and use existing AWM platforms to market FWIMD."
+    [params.header.image]
+      path = "images/fwimd.png"
+      alt = "FWIMD"
+    [params.header.button]
+      link = "https://docs.google.com/forms/d/e/1FAIpQLSd3U2_eQKOP1GTk4K5opTgGNri2m_3DTJA-LwXUjzm8nElXTg/viewform"
+      text = "Register for FWIMD 2020!"
+
+  # Based on feature_list
+  [params.plenary_speaker]
+    title = "Plenary Speaker"
+    [[params.plenary_speaker.items]]
+      image = "images/speaker/nancy_reduced.jpeg"
+      title = "Dr. Nancy Scherich"
+      text = "\"Dr. Nancy Scherich is a Visiting Assistant Professor in the Mathematics Department at Wake Forest University. In addition to her research in Knot Theory, Dr. Scherich creates videos using dance as a communication tool to explain complex mathematical concepts. Most notably she won Science Magazine's Dance Your PhD contest with her video about Representations of the Braid Groups. Dr. Scherich is an advocate for diversity in mathematics and she believes that dance is a wonderful way to include artists and performers into the mathematical community.\""
+      button_link = "https://nancyscherich.com"
+      button_text = "Check out her personal site!"
+      
+  [params.planned_activities]
+    title = "Planned Activities"
+
+  [params.feature_list]
+    title = "Conference Features"
+    [[params.feature_list.items]]
+      image = "images/showcase/showcase-7-reduced.png"
+      title = "Mathematics for all"
+      text = "FWIMD features Research Talks, Presentations, networking, mentoring across all levels, a career panel, and a hands-on mathematics activity for local high school students. This conference is open to anyone interested in mathematics at FAU and neighboring Florida institutions. Graduate students, undergraduates, high school students, faculty, and educators are all welcome!"
+      #button_link = ""
+      #button_text = "Check Features"
+    [[params.feature_list.items]]
+      image = "images/showcase/showcase-3-reduced.png"
+      title = "Promoting Research"
+      text = "In addition, participants have the opportunity to learn about the research of other women in Florida; to present their work in a supportive environment; to network with other Florida women mathematicians; and to explore career opportunities and experiences of women in mathematics."
+      #button_link = ""
+      #button_text = "Check Features"
+
+  [params.gallery]
+    title = "Memories from FWIMD 2019"
+    # Set the image directory to use as base
+    directory = "images/showcase"
+    # Set the images to show in the gallery
+    images = ["showcase-2.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
+
+  [params.call_to_action]
+    title = "Get Notified of Upcoming Conferences"
+    text = "To keep in touch with FWIMD, you can subscribe to our email list."
+    placeholder = "Your Email Address Here"
+    button_text = "Subscribe"
+
+ # Fron testimonials
+  [params.organizers]
+    title = "Meet the Organizers!"
+    [[params.organizers.blocks]]
+      text = "Professor in the Department of Mathematics at Florida Atlantic University and an IEEE Fellow. Her research interests lie in several areas of control theory, including realization and stabilization of nonlinear systems. Since 1999, she has been serving as a moderator for arXiv. Check out Dr. Wang's full bio <a href='http://math.fau.edu/wang/'>here!</a>"
+      name = "Yuan Wang"
+      position = "Professor, FAU"
+      image = "images/organizers/ywang.png"
+    [[params.organizers.blocks]]
+      text = "Ph.D. Candidate in Mathematics at the University of Florida. Besides Math, Marly is passionate about technology and computer science; she is currently working as an intern for the tidymodels team at RStudio. In her free time, she enjoys dancing, running, and programming. Check out Marly's full bio <a href='https://www.marlygotti.com'>here!</a>"
+      name = "Marly Gotti"
+      position = "Ph.D. Candidate, UF"
+      image = "images/organizers/marly.png"
+    [[params.organizers.blocks]]
+      text = "President of the AWM Student Chapter and Ph.D. Candidate in Mathematics at Florida Atlantic University. Anae's research interests include harmonic analysis and interpolation theory. She is also an Associate of the Casualty Actuary Society (ACAS). Check out Anae's full bio <a href='http://www.math.fau.edu/people/grad-assistants/anaem.php'>here!</a>"
+      name = "Anae Myers"
+      position = "Ph.D. Candidate, FAU"
+      image = "images/organizers/myers.png"
+    [[params.organizers.blocks]]
+      text = "Vice President of the AWM Student Chapter in Florida Atlantic University. Catherine is a Master’s student in Mathematics at Florida Atlantic University. In her spare time she enjoys outdoor adventures, running and playing the piano. Check out Catherine's full bio <a href='http://www.math.fau.edu/awm/officers.php'>here!</a>"
+      name = "Catherine Berrouet"
+      position = "M.S. Student, FAU"
+      image = "images/organizers/catherine.png"
+    [[params.organizers.blocks]]
+      text = "Ph.D. student in Mathematics at Florida Atlantic University. Tran is currently serving as the Webmaster of the AWM Student Chapter at FAU. She earned her Master degree in Computer Science at JAIST, Japan in 2016. In her spare time, she loves traveling and outdoor activities. Check out Tran's full bio <a href='http://www.math.fau.edu/awm/officers.php'>here!</a>"
+      name = "Tran Ngo"
+      position = "Ph.D. Student, FAU"
+      image = "images/organizers/tran.png"
+
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+  # Footer uses navbar data
